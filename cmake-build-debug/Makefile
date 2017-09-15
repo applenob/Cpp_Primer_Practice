@@ -123,32 +123,113 @@ Cpp_Primer_Practice/fast:
 	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/build
 .PHONY : Cpp_Primer_Practice/fast
 
-main.o: main.cpp.o
+Sales_item.o: Sales_item.cpp.o
 
-.PHONY : main.o
+.PHONY : Sales_item.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/main.cpp.o
-.PHONY : main.cpp.o
+Sales_item.cpp.o:
+	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/Sales_item.cpp.o
+.PHONY : Sales_item.cpp.o
 
-main.i: main.cpp.i
+Sales_item.i: Sales_item.cpp.i
 
-.PHONY : main.i
+.PHONY : Sales_item.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/main.cpp.i
-.PHONY : main.cpp.i
+Sales_item.cpp.i:
+	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/Sales_item.cpp.i
+.PHONY : Sales_item.cpp.i
 
-main.s: main.cpp.s
+Sales_item.s: Sales_item.cpp.s
 
-.PHONY : main.s
+.PHONY : Sales_item.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/main.cpp.s
-.PHONY : main.cpp.s
+Sales_item.cpp.s:
+	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/Sales_item.cpp.s
+.PHONY : Sales_item.cpp.s
+
+ch1.o: ch1.cpp.o
+
+.PHONY : ch1.o
+
+# target to build an object file
+ch1.cpp.o:
+	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/ch1.cpp.o
+.PHONY : ch1.cpp.o
+
+ch1.i: ch1.cpp.i
+
+.PHONY : ch1.i
+
+# target to preprocess a source file
+ch1.cpp.i:
+	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/ch1.cpp.i
+.PHONY : ch1.cpp.i
+
+ch1.s: ch1.cpp.s
+
+.PHONY : ch1.s
+
+# target to generate assembly for a file
+ch1.cpp.s:
+	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/ch1.cpp.s
+.PHONY : ch1.cpp.s
+
+ch2.o: ch2.cpp.o
+
+.PHONY : ch2.o
+
+# target to build an object file
+ch2.cpp.o:
+	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/ch2.cpp.o
+.PHONY : ch2.cpp.o
+
+ch2.i: ch2.cpp.i
+
+.PHONY : ch2.i
+
+# target to preprocess a source file
+ch2.cpp.i:
+	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/ch2.cpp.i
+.PHONY : ch2.cpp.i
+
+ch2.s: ch2.cpp.s
+
+.PHONY : ch2.s
+
+# target to generate assembly for a file
+ch2.cpp.s:
+	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/ch2.cpp.s
+.PHONY : ch2.cpp.s
+
+ch3.o: ch3.cpp.o
+
+.PHONY : ch3.o
+
+# target to build an object file
+ch3.cpp.o:
+	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/ch3.cpp.o
+.PHONY : ch3.cpp.o
+
+ch3.i: ch3.cpp.i
+
+.PHONY : ch3.i
+
+# target to preprocess a source file
+ch3.cpp.i:
+	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/ch3.cpp.i
+.PHONY : ch3.cpp.i
+
+ch3.s: ch3.cpp.s
+
+.PHONY : ch3.s
+
+# target to generate assembly for a file
+ch3.cpp.s:
+	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/ch3.cpp.s
+.PHONY : ch3.cpp.s
 
 # Help Target
 help:
@@ -159,9 +240,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Cpp_Primer_Practice"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Sales_item.o"
+	@echo "... Sales_item.i"
+	@echo "... Sales_item.s"
+	@echo "... ch1.o"
+	@echo "... ch1.i"
+	@echo "... ch1.s"
+	@echo "... ch2.o"
+	@echo "... ch2.i"
+	@echo "... ch2.s"
+	@echo "... ch3.o"
+	@echo "... ch3.i"
+	@echo "... ch3.s"
 .PHONY : help
 
 

@@ -84,7 +84,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/cer/Project/ClionProjects/Cpp_Primer_Practice/main.cpp">
+		<Unit filename="/home/cer/Project/ClionProjects/Cpp_Primer_Practice/Sales_item.cpp">
+			<Option target="Cpp_Primer_Practice"/>
+		</Unit>
+		<Unit filename="/home/cer/Project/ClionProjects/Cpp_Primer_Practice/Sales_item.h">
+			<Option target="Cpp_Primer_Practice"/>
+		</Unit>
+		<Unit filename="/home/cer/Project/ClionProjects/Cpp_Primer_Practice/ch1.cpp">
+			<Option target="Cpp_Primer_Practice"/>
+		</Unit>
+		<Unit filename="/home/cer/Project/ClionProjects/Cpp_Primer_Practice/ch2.cpp">
+			<Option target="Cpp_Primer_Practice"/>
+		</Unit>
+		<Unit filename="/home/cer/Project/ClionProjects/Cpp_Primer_Practice/ch3.cpp">
 			<Option target="Cpp_Primer_Practice"/>
 		</Unit>
 		<Unit filename="/home/cer/Project/ClionProjects/Cpp_Primer_Practice/CMakeLists.txt">

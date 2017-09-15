@@ -4,7 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/cer/Project/ClionProjects/Cpp_Primer_Practice/main.cpp" "/home/cer/Project/ClionProjects/Cpp_Primer_Practice/cmake-build-debug/CMakeFiles/Cpp_Primer_Practice.dir/main.cpp.o"
+  "/home/cer/Project/ClionProjects/Cpp_Primer_Practice/Sales_item.cpp" "/home/cer/Project/ClionProjects/Cpp_Primer_Practice/cmake-build-debug/CMakeFiles/Cpp_Primer_Practice.dir/Sales_item.cpp.o"
+  "/home/cer/Project/ClionProjects/Cpp_Primer_Practice/ch1.cpp" "/home/cer/Project/ClionProjects/Cpp_Primer_Practice/cmake-build-debug/CMakeFiles/Cpp_Primer_Practice.dir/ch1.cpp.o"
+  "/home/cer/Project/ClionProjects/Cpp_Primer_Practice/ch2.cpp" "/home/cer/Project/ClionProjects/Cpp_Primer_Practice/cmake-build-debug/CMakeFiles/Cpp_Primer_Practice.dir/ch2.cpp.o"
+  "/home/cer/Project/ClionProjects/Cpp_Primer_Practice/ch3.cpp" "/home/cer/Project/ClionProjects/Cpp_Primer_Practice/cmake-build-debug/CMakeFiles/Cpp_Primer_Practice.dir/ch3.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

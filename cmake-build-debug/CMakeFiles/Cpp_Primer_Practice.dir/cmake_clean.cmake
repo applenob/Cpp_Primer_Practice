@@ -1,5 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Cpp_Primer_Practice.dir/main.cpp.o"
+  "CMakeFiles/Cpp_Primer_Practice.dir/ch1.cpp.o"
+  "CMakeFiles/Cpp_Primer_Practice.dir/Sales_item.cpp.o"
+  "CMakeFiles/Cpp_Primer_Practice.dir/ch2.cpp.o"
+  "CMakeFiles/Cpp_Primer_Practice.dir/ch3.cpp.o"
   "Cpp_Primer_Practice.pdb"
   "Cpp_Primer_Practice"
 )

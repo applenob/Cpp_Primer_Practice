@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/Cpp_Primer_Practice.dir/main.cpp.o  -o Cpp_Primer_Practice 

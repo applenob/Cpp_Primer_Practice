@@ -1,0 +1,3 @@
+/home/cer/Project/ClionProjects/Cpp_Primer_Practice/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/cer/Project/ClionProjects/Cpp_Primer_Practice/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/cer/Project/ClionProjects/Cpp_Primer_Practice/cmake-build-debug/CMakeFiles/Cpp_Primer_Practice.dir

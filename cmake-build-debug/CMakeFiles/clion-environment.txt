@@ -1,0 +1,1 @@
+CMake: 3.6.2@/home/cer/Software/clion-2016.3/bin/cmake/bin/cmake

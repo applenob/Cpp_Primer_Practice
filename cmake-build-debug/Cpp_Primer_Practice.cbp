@@ -102,6 +102,9 @@
 		<Unit filename="/home/cer/Project/ClionProjects/Cpp_Primer_Practice/ch4.cpp">
 			<Option target="Cpp_Primer_Practice"/>
 		</Unit>
+		<Unit filename="/home/cer/Project/ClionProjects/Cpp_Primer_Practice/ch5.cpp">
+			<Option target="Cpp_Primer_Practice"/>
+		</Unit>
 		<Unit filename="/home/cer/Project/ClionProjects/Cpp_Primer_Practice/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

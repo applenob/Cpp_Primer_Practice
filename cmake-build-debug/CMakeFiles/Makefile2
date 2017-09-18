@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/cer/Project/ClionProjects/Cpp_Primer_Practice/cmake-bui
 CMakeFiles/Cpp_Primer_Practice.dir/all:
 	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/depend
 	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cer/Project/ClionProjects/Cpp_Primer_Practice/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target Cpp_Primer_Practice"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/cer/Project/ClionProjects/Cpp_Primer_Practice/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target Cpp_Primer_Practice"
 .PHONY : CMakeFiles/Cpp_Primer_Practice.dir/all
 
 # Include target in all.
@@ -76,7 +76,7 @@ all: CMakeFiles/Cpp_Primer_Practice.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Cpp_Primer_Practice.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cer/Project/ClionProjects/Cpp_Primer_Practice/cmake-build-debug/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cer/Project/ClionProjects/Cpp_Primer_Practice/cmake-build-debug/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Cpp_Primer_Practice.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/cer/Project/ClionProjects/Cpp_Primer_Practice/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/Cpp_Primer_Practice.dir/rule

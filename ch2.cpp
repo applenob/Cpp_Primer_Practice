@@ -1,6 +1,8 @@
 //
 // Created by cer on 17-9-15.
 // chapter 2
+// 变量和基本类型
+
 #include <iostream>
 #include "Sales_item.h"
 

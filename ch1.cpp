@@ -1,7 +1,8 @@
 //
 // Created by cer on 17-9-15.
 // chapter 1
-//
+// 快速入门
+
 #include <iostream>
 
 void basic_io(){

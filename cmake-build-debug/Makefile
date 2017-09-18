@@ -231,6 +231,33 @@ ch3.cpp.s:
 	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/ch3.cpp.s
 .PHONY : ch3.cpp.s
 
+ch4.o: ch4.cpp.o
+
+.PHONY : ch4.o
+
+# target to build an object file
+ch4.cpp.o:
+	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/ch4.cpp.o
+.PHONY : ch4.cpp.o
+
+ch4.i: ch4.cpp.i
+
+.PHONY : ch4.i
+
+# target to preprocess a source file
+ch4.cpp.i:
+	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/ch4.cpp.i
+.PHONY : ch4.cpp.i
+
+ch4.s: ch4.cpp.s
+
+.PHONY : ch4.s
+
+# target to generate assembly for a file
+ch4.cpp.s:
+	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/ch4.cpp.s
+.PHONY : ch4.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -252,6 +279,9 @@ help:
 	@echo "... ch3.o"
 	@echo "... ch3.i"
 	@echo "... ch3.s"
+	@echo "... ch4.o"
+	@echo "... ch4.i"
+	@echo "... ch4.s"
 .PHONY : help
 
 

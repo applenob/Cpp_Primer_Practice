@@ -285,6 +285,60 @@ ch5.cpp.s:
 	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/ch5.cpp.s
 .PHONY : ch5.cpp.s
 
+ch6.o: ch6.cpp.o
+
+.PHONY : ch6.o
+
+# target to build an object file
+ch6.cpp.o:
+	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/ch6.cpp.o
+.PHONY : ch6.cpp.o
+
+ch6.i: ch6.cpp.i
+
+.PHONY : ch6.i
+
+# target to preprocess a source file
+ch6.cpp.i:
+	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/ch6.cpp.i
+.PHONY : ch6.cpp.i
+
+ch6.s: ch6.cpp.s
+
+.PHONY : ch6.s
+
+# target to generate assembly for a file
+ch6.cpp.s:
+	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/ch6.cpp.s
+.PHONY : ch6.cpp.s
+
+ch7.o: ch7.cpp.o
+
+.PHONY : ch7.o
+
+# target to build an object file
+ch7.cpp.o:
+	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/ch7.cpp.o
+.PHONY : ch7.cpp.o
+
+ch7.i: ch7.cpp.i
+
+.PHONY : ch7.i
+
+# target to preprocess a source file
+ch7.cpp.i:
+	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/ch7.cpp.i
+.PHONY : ch7.cpp.i
+
+ch7.s: ch7.cpp.s
+
+.PHONY : ch7.s
+
+# target to generate assembly for a file
+ch7.cpp.s:
+	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/ch7.cpp.s
+.PHONY : ch7.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -312,6 +366,12 @@ help:
 	@echo "... ch5.o"
 	@echo "... ch5.i"
 	@echo "... ch5.s"
+	@echo "... ch6.o"
+	@echo "... ch6.i"
+	@echo "... ch6.s"
+	@echo "... ch7.o"
+	@echo "... ch7.i"
+	@echo "... ch7.s"
 .PHONY : help
 
 

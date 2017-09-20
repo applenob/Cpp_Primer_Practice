@@ -6,13 +6,7 @@
 #define CPP_PRIMER_PRACTICE_SALES_ITEM_H
 
 
-class Sales_item {
-public:
-private:
-    std::string isbn;
-    unsigned units_sold;
-    double revenue;
-};
+class Sales_item;
 
 
 #endif //CPP_PRIMER_PRACTICE_SALES_ITEM_H

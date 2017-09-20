@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/cer/Project/ClionProjects/Cpp_Primer_Practice/ch5.cpp" "/home/cer/Project/ClionProjects/Cpp_Primer_Practice/cmake-build-debug/CMakeFiles/Cpp_Primer_Practice.dir/ch5.cpp.o"
   "/home/cer/Project/ClionProjects/Cpp_Primer_Practice/ch6.cpp" "/home/cer/Project/ClionProjects/Cpp_Primer_Practice/cmake-build-debug/CMakeFiles/Cpp_Primer_Practice.dir/ch6.cpp.o"
   "/home/cer/Project/ClionProjects/Cpp_Primer_Practice/ch7.cpp" "/home/cer/Project/ClionProjects/Cpp_Primer_Practice/cmake-build-debug/CMakeFiles/Cpp_Primer_Practice.dir/ch7.cpp.o"
+  "/home/cer/Project/ClionProjects/Cpp_Primer_Practice/ch8.cpp" "/home/cer/Project/ClionProjects/Cpp_Primer_Practice/cmake-build-debug/CMakeFiles/Cpp_Primer_Practice.dir/ch8.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

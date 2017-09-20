@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Cpp_Primer_Practice.dir/ch5.cpp.o"
   "CMakeFiles/Cpp_Primer_Practice.dir/ch6.cpp.o"
   "CMakeFiles/Cpp_Primer_Practice.dir/ch7.cpp.o"
+  "CMakeFiles/Cpp_Primer_Practice.dir/ch8.cpp.o"
   "Cpp_Primer_Practice.pdb"
   "Cpp_Primer_Practice"
 )

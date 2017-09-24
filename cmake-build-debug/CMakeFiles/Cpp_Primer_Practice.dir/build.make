@@ -273,6 +273,54 @@ CMakeFiles/Cpp_Primer_Practice.dir/ch8.cpp.o.provides: CMakeFiles/Cpp_Primer_Pra
 CMakeFiles/Cpp_Primer_Practice.dir/ch8.cpp.o.provides.build: CMakeFiles/Cpp_Primer_Practice.dir/ch8.cpp.o
 
 
+CMakeFiles/Cpp_Primer_Practice.dir/ch9.cpp.o: CMakeFiles/Cpp_Primer_Practice.dir/flags.make
+CMakeFiles/Cpp_Primer_Practice.dir/ch9.cpp.o: ../ch9.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cer/Project/ClionProjects/Cpp_Primer_Practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Cpp_Primer_Practice.dir/ch9.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Cpp_Primer_Practice.dir/ch9.cpp.o -c /home/cer/Project/ClionProjects/Cpp_Primer_Practice/ch9.cpp
+
+CMakeFiles/Cpp_Primer_Practice.dir/ch9.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Cpp_Primer_Practice.dir/ch9.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cer/Project/ClionProjects/Cpp_Primer_Practice/ch9.cpp > CMakeFiles/Cpp_Primer_Practice.dir/ch9.cpp.i
+
+CMakeFiles/Cpp_Primer_Practice.dir/ch9.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Cpp_Primer_Practice.dir/ch9.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cer/Project/ClionProjects/Cpp_Primer_Practice/ch9.cpp -o CMakeFiles/Cpp_Primer_Practice.dir/ch9.cpp.s
+
+CMakeFiles/Cpp_Primer_Practice.dir/ch9.cpp.o.requires:
+
+.PHONY : CMakeFiles/Cpp_Primer_Practice.dir/ch9.cpp.o.requires
+
+CMakeFiles/Cpp_Primer_Practice.dir/ch9.cpp.o.provides: CMakeFiles/Cpp_Primer_Practice.dir/ch9.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/ch9.cpp.o.provides.build
+.PHONY : CMakeFiles/Cpp_Primer_Practice.dir/ch9.cpp.o.provides
+
+CMakeFiles/Cpp_Primer_Practice.dir/ch9.cpp.o.provides.build: CMakeFiles/Cpp_Primer_Practice.dir/ch9.cpp.o
+
+
+CMakeFiles/Cpp_Primer_Practice.dir/ch10.cpp.o: CMakeFiles/Cpp_Primer_Practice.dir/flags.make
+CMakeFiles/Cpp_Primer_Practice.dir/ch10.cpp.o: ../ch10.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cer/Project/ClionProjects/Cpp_Primer_Practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Cpp_Primer_Practice.dir/ch10.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Cpp_Primer_Practice.dir/ch10.cpp.o -c /home/cer/Project/ClionProjects/Cpp_Primer_Practice/ch10.cpp
+
+CMakeFiles/Cpp_Primer_Practice.dir/ch10.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Cpp_Primer_Practice.dir/ch10.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cer/Project/ClionProjects/Cpp_Primer_Practice/ch10.cpp > CMakeFiles/Cpp_Primer_Practice.dir/ch10.cpp.i
+
+CMakeFiles/Cpp_Primer_Practice.dir/ch10.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Cpp_Primer_Practice.dir/ch10.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cer/Project/ClionProjects/Cpp_Primer_Practice/ch10.cpp -o CMakeFiles/Cpp_Primer_Practice.dir/ch10.cpp.s
+
+CMakeFiles/Cpp_Primer_Practice.dir/ch10.cpp.o.requires:
+
+.PHONY : CMakeFiles/Cpp_Primer_Practice.dir/ch10.cpp.o.requires
+
+CMakeFiles/Cpp_Primer_Practice.dir/ch10.cpp.o.provides: CMakeFiles/Cpp_Primer_Practice.dir/ch10.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/ch10.cpp.o.provides.build
+.PHONY : CMakeFiles/Cpp_Primer_Practice.dir/ch10.cpp.o.provides
+
+CMakeFiles/Cpp_Primer_Practice.dir/ch10.cpp.o.provides.build: CMakeFiles/Cpp_Primer_Practice.dir/ch10.cpp.o
+
+
 # Object files for target Cpp_Primer_Practice
 Cpp_Primer_Practice_OBJECTS = \
 "CMakeFiles/Cpp_Primer_Practice.dir/ch1.cpp.o" \
@@ -283,7 +331,9 @@ Cpp_Primer_Practice_OBJECTS = \
 "CMakeFiles/Cpp_Primer_Practice.dir/ch5.cpp.o" \
 "CMakeFiles/Cpp_Primer_Practice.dir/ch6.cpp.o" \
 "CMakeFiles/Cpp_Primer_Practice.dir/ch7.cpp.o" \
-"CMakeFiles/Cpp_Primer_Practice.dir/ch8.cpp.o"
+"CMakeFiles/Cpp_Primer_Practice.dir/ch8.cpp.o" \
+"CMakeFiles/Cpp_Primer_Practice.dir/ch9.cpp.o" \
+"CMakeFiles/Cpp_Primer_Practice.dir/ch10.cpp.o"
 
 # External object files for target Cpp_Primer_Practice
 Cpp_Primer_Practice_EXTERNAL_OBJECTS =
@@ -297,9 +347,11 @@ Cpp_Primer_Practice: CMakeFiles/Cpp_Primer_Practice.dir/ch5.cpp.o
 Cpp_Primer_Practice: CMakeFiles/Cpp_Primer_Practice.dir/ch6.cpp.o
 Cpp_Primer_Practice: CMakeFiles/Cpp_Primer_Practice.dir/ch7.cpp.o
 Cpp_Primer_Practice: CMakeFiles/Cpp_Primer_Practice.dir/ch8.cpp.o
+Cpp_Primer_Practice: CMakeFiles/Cpp_Primer_Practice.dir/ch9.cpp.o
+Cpp_Primer_Practice: CMakeFiles/Cpp_Primer_Practice.dir/ch10.cpp.o
 Cpp_Primer_Practice: CMakeFiles/Cpp_Primer_Practice.dir/build.make
 Cpp_Primer_Practice: CMakeFiles/Cpp_Primer_Practice.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cer/Project/ClionProjects/Cpp_Primer_Practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable Cpp_Primer_Practice"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cer/Project/ClionProjects/Cpp_Primer_Practice/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable Cpp_Primer_Practice"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Cpp_Primer_Practice.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -316,6 +368,8 @@ CMakeFiles/Cpp_Primer_Practice.dir/requires: CMakeFiles/Cpp_Primer_Practice.dir/
 CMakeFiles/Cpp_Primer_Practice.dir/requires: CMakeFiles/Cpp_Primer_Practice.dir/ch6.cpp.o.requires
 CMakeFiles/Cpp_Primer_Practice.dir/requires: CMakeFiles/Cpp_Primer_Practice.dir/ch7.cpp.o.requires
 CMakeFiles/Cpp_Primer_Practice.dir/requires: CMakeFiles/Cpp_Primer_Practice.dir/ch8.cpp.o.requires
+CMakeFiles/Cpp_Primer_Practice.dir/requires: CMakeFiles/Cpp_Primer_Practice.dir/ch9.cpp.o.requires
+CMakeFiles/Cpp_Primer_Practice.dir/requires: CMakeFiles/Cpp_Primer_Practice.dir/ch10.cpp.o.requires
 
 .PHONY : CMakeFiles/Cpp_Primer_Practice.dir/requires
 

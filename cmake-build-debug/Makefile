@@ -177,6 +177,33 @@ ch1.cpp.s:
 	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/ch1.cpp.s
 .PHONY : ch1.cpp.s
 
+ch10.o: ch10.cpp.o
+
+.PHONY : ch10.o
+
+# target to build an object file
+ch10.cpp.o:
+	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/ch10.cpp.o
+.PHONY : ch10.cpp.o
+
+ch10.i: ch10.cpp.i
+
+.PHONY : ch10.i
+
+# target to preprocess a source file
+ch10.cpp.i:
+	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/ch10.cpp.i
+.PHONY : ch10.cpp.i
+
+ch10.s: ch10.cpp.s
+
+.PHONY : ch10.s
+
+# target to generate assembly for a file
+ch10.cpp.s:
+	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/ch10.cpp.s
+.PHONY : ch10.cpp.s
+
 ch2.o: ch2.cpp.o
 
 .PHONY : ch2.o
@@ -366,6 +393,33 @@ ch8.cpp.s:
 	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/ch8.cpp.s
 .PHONY : ch8.cpp.s
 
+ch9.o: ch9.cpp.o
+
+.PHONY : ch9.o
+
+# target to build an object file
+ch9.cpp.o:
+	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/ch9.cpp.o
+.PHONY : ch9.cpp.o
+
+ch9.i: ch9.cpp.i
+
+.PHONY : ch9.i
+
+# target to preprocess a source file
+ch9.cpp.i:
+	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/ch9.cpp.i
+.PHONY : ch9.cpp.i
+
+ch9.s: ch9.cpp.s
+
+.PHONY : ch9.s
+
+# target to generate assembly for a file
+ch9.cpp.s:
+	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/ch9.cpp.s
+.PHONY : ch9.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -381,6 +435,9 @@ help:
 	@echo "... ch1.o"
 	@echo "... ch1.i"
 	@echo "... ch1.s"
+	@echo "... ch10.o"
+	@echo "... ch10.i"
+	@echo "... ch10.s"
 	@echo "... ch2.o"
 	@echo "... ch2.i"
 	@echo "... ch2.s"
@@ -402,6 +459,9 @@ help:
 	@echo "... ch8.o"
 	@echo "... ch8.i"
 	@echo "... ch8.s"
+	@echo "... ch9.o"
+	@echo "... ch9.i"
+	@echo "... ch9.s"
 .PHONY : help
 
 

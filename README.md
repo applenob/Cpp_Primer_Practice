@@ -434,14 +434,38 @@ ubuntu下键盘输入文件结束符：`ctrl+d`
 - `set`：大小可变的集合，支持通过键快速读取。
 - `multimap`：支持同一个键多次出现的`map`。
 - `multiset`：支持同一个键多次出现的`set`。
+- 都是按顺序存储。
 
-****：
+**pair**：
+- 在`utility`头文件中定义。
+- `p.first`/`p.second`，返回p的名为first和second的数据成员。
+- `pair<string, string> author("James", "Joyce");`。
+- `make_pair`
 
-****：
+**map**：
+- 在 `map`头文件中定义。
+- 键的要求：有相关的比较函数（严格弱排序，小于）
+- 初始化：`map<string, int> word_count;`
+- 添加元素： `word_count["Anna"]=1;`或者 `word_count.insert(map<string, int>::value_type("Anna", 1));`
+- 遍历：iterator指向一个pair，first指向key，second指向value。
+- `m.count(k)`：返回m中k的出现次数，只能是0或1。
+- `m.find(k)`：如果m中已经存在k索引的元素，返回迭代器，否则返回超出末端的迭代器。
+- `m.erase(k)`：删除m中键为k的元素； `erase(p)`：删除p迭代器指向的元素。
 
-****：
+**set**：
+- 在 `set`头文件中定义。
+- 初始化： `set<string> s;`
+- 添加元素： `s.insert("the");`
+- set不提供下标操作符。
+- 获取元素： `s.find("the");`
+- 更简单的判断某元素是否在集合中： `s.count(element) == 1`
 
-****：
+**multimap和multiset**：
+- 支持同一键值出现多次。
+- 插入只能使用insert。
+- `erase` 将删除某个键的所有元素，并返回删除的个数。
+- `find` 操作则返回一个迭代器， 指向第一个拥有正在查找的键的实例。
+
 
 ****：
 

@@ -96,6 +96,9 @@
 		<Unit filename="/home/cer/Project/ClionProjects/Cpp_Primer_Practice/ch10.cpp">
 			<Option target="Cpp_Primer_Practice"/>
 		</Unit>
+		<Unit filename="/home/cer/Project/ClionProjects/Cpp_Primer_Practice/ch11.cpp">
+			<Option target="Cpp_Primer_Practice"/>
+		</Unit>
 		<Unit filename="/home/cer/Project/ClionProjects/Cpp_Primer_Practice/ch2.cpp">
 			<Option target="Cpp_Primer_Practice"/>
 		</Unit>

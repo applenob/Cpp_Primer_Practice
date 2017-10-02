@@ -11,6 +11,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Cpp_Primer_Practice.dir/ch9.cpp.o"
   "CMakeFiles/Cpp_Primer_Practice.dir/ch10.cpp.o"
   "CMakeFiles/Cpp_Primer_Practice.dir/ch11.cpp.o"
+  "CMakeFiles/Cpp_Primer_Practice.dir/ch16.cpp.o"
   "Cpp_Primer_Practice.pdb"
   "Cpp_Primer_Practice"
 )

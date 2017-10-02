@@ -231,6 +231,33 @@ ch11.cpp.s:
 	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/ch11.cpp.s
 .PHONY : ch11.cpp.s
 
+ch16.o: ch16.cpp.o
+
+.PHONY : ch16.o
+
+# target to build an object file
+ch16.cpp.o:
+	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/ch16.cpp.o
+.PHONY : ch16.cpp.o
+
+ch16.i: ch16.cpp.i
+
+.PHONY : ch16.i
+
+# target to preprocess a source file
+ch16.cpp.i:
+	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/ch16.cpp.i
+.PHONY : ch16.cpp.i
+
+ch16.s: ch16.cpp.s
+
+.PHONY : ch16.s
+
+# target to generate assembly for a file
+ch16.cpp.s:
+	$(MAKE) -f CMakeFiles/Cpp_Primer_Practice.dir/build.make CMakeFiles/Cpp_Primer_Practice.dir/ch16.cpp.s
+.PHONY : ch16.cpp.s
+
 ch2.o: ch2.cpp.o
 
 .PHONY : ch2.o
@@ -468,6 +495,9 @@ help:
 	@echo "... ch11.o"
 	@echo "... ch11.i"
 	@echo "... ch11.s"
+	@echo "... ch16.o"
+	@echo "... ch16.i"
+	@echo "... ch16.s"
 	@echo "... ch2.o"
 	@echo "... ch2.i"
 	@echo "... ch2.s"

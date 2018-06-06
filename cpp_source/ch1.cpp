@@ -63,9 +63,9 @@ void basic_cin(){
 int main() {
 //    basic_io();
 //    basic_while();
-//    basic_for();
+    basic_for();
 //    basic_if();
-    basic_cin();
+//    basic_cin();
 
-    return 0;
+    return -1;
 }

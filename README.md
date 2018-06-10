@@ -1,6 +1,12 @@
 # Cpp Primer 学习
 
-C++ Primer 中文版第5版学习仓库，包括笔记和课后练习。
+## 简介
+C++ Primer 中文版第5版学习仓库，包括笔记和我的课后练习答案。
+
+## 环境
+- system: ubuntu 16.04
+- IDE: CLion
+- compiler: g++
 
 [原书第五版pdf链接](https://download.csdn.net/download/yjwffgip456/9448570)
 

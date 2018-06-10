@@ -1,13 +1,24 @@
 # 第二章 变量和基本类型
 
 ## 基本算数类型
-- `char`:8bits
-- `short`:16bits
-- `int`:16bits (在32位机器中是32bits)
-- `long`:32bits
+- `char`: 8bits
+- `short`: 16bits
+- `int`: 16bits (在32位机器中是32bits)
+- `long`: 32bits
+- `long long`: 64bits （是在C++11中新定义的）
 - `float`
 - `double`
 - `long double`
+
+## 如何选择类型
+- 1.当明确知晓数值不可能是负数时，选用无符号类型；
+- 2.使用`int`执行整数运算。一般`long`的大小和`int`一样，而`short`常常显得太小。除非超过了`int`的范围，选择`long long`。
+- 3.算术表达式中不要使用`char`或`bool`。
+- 4.浮点运算选用`double`。
+
+## 类型转换
+- 非布尔型赋给布尔型，初始值为0则结果为false，否则为true。
+- 布尔型赋给非布尔型，初始值为false结果为0，初始值为true结果为1。
 
 **左值和右值**：
 - 左值（l-value）可以出现在赋值语句的左边或者右边，比如变量；

@@ -1,9 +1,4 @@
-# 第一章 快速入门
-
-## 环境
-- system: ubuntu 16.04
-- IDE: CLion
-- compiler: g++
+# 第一章 开始
 
 ## 熟悉编译器
 

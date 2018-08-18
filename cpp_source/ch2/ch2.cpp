@@ -4,7 +4,7 @@
 // 变量和基本类型
 
 #include <iostream>
-#include "Sales_item.h"
+#include "../Sales_item.h"
 
 void basic_class(){
     Sales_item book;

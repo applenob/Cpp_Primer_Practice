@@ -58,11 +58,20 @@
 - `void*`指针可以存放任意对象的地址。
 - 其他指针类型必须要与所指对象严格匹配。
 
-**const限定符**：把一个对象转换成常量。const变量默认不能被其他文件访问，非要访问，必须在指定const前加extern。
-**const引用**：指向const对象的引用，如`const int ival=1; const int &refVal = ival;`，可以读取但不能修改refVal。
+## const限定符
+- 动机：希望定义一些不能被改变值的变量。
+- const对象必须初始化，且不能被改变。
+- const变量默认不能被其他文件访问，非要访问，必须在指定const前加extern。
+- **reference to const**（对常量的引用）：指向const对象的引用，如`const int ival=1; const int &refVal = ival;`，可以读取但不能修改refVal。
+- **pointer to const**（指向常量的指针）：不能用于改变其所指对象的值。
+- **const pointer**：指针本身是常量。
+- 顶层const：指针本身是个常量
+- 底层const：指针指向的对象是个常量。拷贝时严格要求相同的底层const资格。
+- 常量表达式：指值不会改变，且在编译过程中就能得到计算结果的表达式。
 
-**typedef**：用来定义类型的同义词。
+## 处理类型
+- 类型别名：使用**typedef**来定义类型的同义词。 `typedef double wages;`
+- 别名声明（alias declaration）： `using SI = Sales_item;`（C++11）
+- **auto**类型说明符：让编译器自动推断类型。会忽略顶层const。（C++11）
+- **decltype**：选择并返回操作数的数据类型。不会忽略顶层const。（C++11）
 
-**枚举**：如`enum open_modes {input, output, append};`，枚举的成员必须是一个常量表达式（可以在编译时计算出来）。
-
-**struct**：使用class定义类，那么定义在第一个访问标号前的任何成员都隐式地指定为private；如果使用struct，那么默认是public。

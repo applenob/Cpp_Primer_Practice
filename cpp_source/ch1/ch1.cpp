@@ -1,7 +1,7 @@
 //
-// Created by cer on 17-9-15.
+// Created by cer
 // chapter 1
-// 快速入门
+// 开始
 
 #include <iostream>
 #include "Sales_item.h"

@@ -1,5 +1,5 @@
 //
-// Created by cer on 17-9-15.
+// Created by cer
 // chapter 2
 // 变量和基本类型
 

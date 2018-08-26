@@ -1,11 +1,13 @@
 //
-// Created by cer on 17-9-15.
+// Created by cer
 // chapter 3
-// 标准库类型
+// 字符串、向量和数组
 
 #include <iostream>
 #include <vector>
+#include <string>
 #include <bitset>
+#include <cctype>
 
 using std::cin;
 using std::cout;
@@ -55,8 +57,55 @@ void basic_bieset(){
          << bitvec2.to_ulong() << endl;
 }
 
+void q_3_14(){
+    vector<int> v;
+    int i;
+    while (cin >> i){
+        v.push_back(i);
+    }
+}
+
+void q_3_17(){
+    vector<string> v;
+    string s;
+    while (cin >> s){
+        v.push_back(s);
+    }
+    for (auto &str : v)
+    {
+        for (auto &c : str)
+        {
+            c = toupper(c);
+        }
+    }
+    for (auto str : v){
+        cout << str << endl;
+    }
+}
+
+
+void q_3_23(){
+    vector<int> v(10, 1);
+    for (auto it=v.begin(); it!=v.end(); it++){
+        *it *= 2;
+    }
+    for (auto one : v){
+        cout << one <<endl;
+    }
+}
+
+void q_3_31(){
+    int a[10];
+    for (size_t i=0; i != 10; i++){
+        a[i] = i;
+    }
+}
+
 int main(){
 //    basic_getline();
 //    basic_string();
-    basic_bieset();
+//    basic_bieset();
+//    q_3_14();
+//    q_3_17();
+    q_3_23();
 }

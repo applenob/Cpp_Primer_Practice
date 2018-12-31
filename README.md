@@ -12,9 +12,9 @@ C++ Primer 中文版第5版学习仓库，包括笔记和我的课后练习答�
 
 ## 笔记
 
-- [Chapter 1](https://github.com/applenob/Cpp_Primer_Practice/tree/master/notes/ch1.md)
-- [Chapter 2](https://github.com/applenob/Cpp_Primer_Practice/tree/master/notes/ch2.md)
-- [Chapter 3](https://github.com/applenob/Cpp_Primer_Practice/tree/master/notes/ch3.md)
+- [Chapter 1 开始](https://github.com/applenob/Cpp_Primer_Practice/tree/master/notes/ch1.md)
+- [Chapter 2 变量和基本类型](https://github.com/applenob/Cpp_Primer_Practice/tree/master/notes/ch2.md)
+- [Chapter 3 字符串、向量和数组](https://github.com/applenob/Cpp_Primer_Practice/tree/master/notes/ch3.md)
 - [Chapter 4](https://github.com/applenob/Cpp_Primer_Practice/tree/master/notes/ch4.md)
 - [Chapter 5](https://github.com/applenob/Cpp_Primer_Practice/tree/master/notes/ch5.md)
 - [Chapter 6](https://github.com/applenob/Cpp_Primer_Practice/tree/master/notes/ch6.md)
@@ -34,9 +34,9 @@ C++ Primer 中文版第5版学习仓库，包括笔记和我的课后练习答�
 
 ## 练习
 
-- [Chapter 1](https://github.com/applenob/Cpp_Primer_Practice/tree/master/excersize/ch1.md)
-- [Chapter 2](https://github.com/applenob/Cpp_Primer_Practice/tree/master/excersize/ch2.md)
-- [Chapter 3](https://github.com/applenob/Cpp_Primer_Practice/tree/master/excersize/ch3.md)
+- [Chapter 1 开始](https://github.com/applenob/Cpp_Primer_Practice/tree/master/excersize/ch1.md)
+- [Chapter 2 变量和基本类型](https://github.com/applenob/Cpp_Primer_Practice/tree/master/excersize/ch2.md)
+- [Chapter 3 字符串、向量和数组](https://github.com/applenob/Cpp_Primer_Practice/tree/master/excersize/ch3.md)
 - [Chapter 4](https://github.com/applenob/Cpp_Primer_Practice/tree/master/excersize/ch4.md)
 - [Chapter 5](https://github.com/applenob/Cpp_Primer_Practice/tree/master/excersize/ch5.md)
 - [Chapter 6](https://github.com/applenob/Cpp_Primer_Practice/tree/master/excersize/ch6.md)

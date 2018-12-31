@@ -4,7 +4,7 @@
 
 **g++**：
 
-- 编译：`g++ ch1.cpp -o main`
+- 编译：`g++ --std=c++11 ch1.cpp -o main`
 - 运行：`./prog1`
 - 查看运行状态：`echo $?`
 - 编译多个文件:`g++ ch2.cpp Sales_item.cc -o main`

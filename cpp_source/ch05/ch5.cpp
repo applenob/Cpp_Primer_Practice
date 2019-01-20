@@ -1,10 +1,10 @@
 //
-// Created by cer on 17-9-19.
-// chapter 06
+// Created by cer on 17-9-18.
+// chapter 5
 // 语句
-#include <iostream>
-#include <stdexcept>
 
+#include <iostream>
+#include <vector>
 using namespace std;
 
 int divide(int a, int b){
@@ -27,3 +27,5 @@ int main(){
     }
     return 0;
 }
+
+

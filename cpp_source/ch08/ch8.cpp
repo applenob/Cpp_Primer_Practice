@@ -1,6 +1,4 @@
-//
-// Created by cer on 17-9-20.
-// chapter 09
+// chapter 08
 // 标准IO库
 
 #include <iostream>

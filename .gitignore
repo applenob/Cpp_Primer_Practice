@@ -5,3 +5,4 @@ test_out_file
 CMakeLists.txt
 main
 .DS_Store
+.vscode

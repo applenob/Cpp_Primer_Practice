@@ -1,0 +1,2 @@
+#include "binaryquery.h"
+

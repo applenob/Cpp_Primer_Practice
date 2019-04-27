@@ -34,5 +34,8 @@ C++ Primer 中文版第5版学习仓库，包括**笔记**和**课后练习答�
 - 第 IV 部分 : 高级主题  
     - 第17章 : 标准库与特殊设施  [笔记](https://github.com/applenob/Cpp_Primer_Practice/tree/master/notes/ch17.md)  [练习](https://github.com/applenob/Cpp_Primer_Practice/tree/master/excersize/ch17.md)
     - 第18章 : 用于大型程序的工具  [笔记](https://github.com/applenob/Cpp_Primer_Practice/tree/master/notes/ch18.md)  [练习](https://github.com/applenob/Cpp_Primer_Practice/tree/master/excersize/ch18.md)
-    - 第19章 : 特殊工具与技术  [笔记](https://github.com/applenob/Cpp_Primer_Practice/tree/master/notes/ch19.md)  [练习](https://github.com/applenob/Cpp_Primer_Practice/tree/master/excersize/ch19.md)                                                              
-            
+    - 第19章 : 特殊工具与技术  [笔记](https://github.com/applenob/Cpp_Primer_Practice/tree/master/notes/ch19.md)  [练习](https://github.com/applenob/Cpp_Primer_Practice/tree/master/excersize/ch19.md)                  
+## 参考
+
+- [C++ Primer 5 Answers(C++11/14)](https://github.com/Mooophy/Cpp-Primer)
+- [《C++ Primer》第五版中文版习题答案](https://github.com/huangmingchuan/Cpp_Primer_Answers)

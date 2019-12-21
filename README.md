@@ -5,7 +5,7 @@ C++ Primer 中文版第5版学习仓库，包括**笔记**和**课后练习答�
 
 ## 环境
 - system: ubuntu 16.04
-- IDE: CLion
+- IDE: VS Code
 - compiler: g++
 
 [原书第五版pdf链接](https://download.csdn.net/download/yjwffgip456/9448570)

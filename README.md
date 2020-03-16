@@ -1,14 +1,14 @@
 # Cpp Primer 学习
 
 ## 简介
-C++ Primer 中文版第5版学习仓库，包括**笔记**和**课后练习答案**。
+《C++ Primer 中文版（第 5 版）》学习仓库，包括**笔记**和**课后练习答案**。
 
 ## 环境
 - system: ubuntu 16.04
 - IDE: VS Code
 - compiler: g++
 
-[原书第五版pdf链接](https://download.csdn.net/download/yjwffgip456/9448570)
+[豆瓣链接](https://book.douban.com/subject/25708312/)
 
 ## 目录
 

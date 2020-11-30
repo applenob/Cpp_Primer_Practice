@@ -42,3 +42,7 @@
 
 - [C++ Primer 5 Answers(C++11/14)](https://github.com/Mooophy/Cpp-Primer)
 - [《C++ Primer》第五版中文版习题答案](https://github.com/huangmingchuan/Cpp_Primer_Answers)
+
+## 参与贡献
+
+本仓库由多位小伙伴一起参与编写，欢迎大家对本仓库进行补充，一起帮大家更好地理解这本“大部头”。

@@ -46,3 +46,5 @@
 ## 参与贡献
 
 本仓库由多位小伙伴一起参与编写，欢迎大家对本仓库进行补充，一起帮大家更好地理解这本“大部头”。
+
+![](https://contrib.rocks/image?repo=applenob/Cpp_Primer_Practice)
